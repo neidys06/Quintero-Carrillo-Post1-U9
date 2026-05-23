@@ -37,7 +37,7 @@ scancode en hexadecimal (`1E`) y termina.
 El programa compila sin errores y muestra correctamente el scancode 
 de la tecla presionada.
 
-![Checkpoint 1](checkpoint1.png)
+![Checkpoint 1](capturas/checkpoint1.png)
 
 ---
 
@@ -65,7 +65,7 @@ tecla. Con `MAX_RETRY EQU 0FFFFh` espera una pulsación real.
 El programa muestra "Timeout: sin respuesta del dispositivo" cuando 
 MAX_RETRY es pequeño y no se presiona ninguna tecla.
 
-![Checkpoint 2](checkpoint2.png)
+![Checkpoint 2](capturas/checkpoint2.png)
 
 ---
 
@@ -101,6 +101,6 @@ el acceso directo a los puertos no genera excepción en el entorno emulado.
 ### Checkpoint 3 ✅
 El programa compila y se ejecuta sin errores de acceso a puerto en DOSBox.
 
-![Checkpoint 3](checkpoint3.png)
+![Checkpoint 3](capturas/checkpoint3.png)
 
 ---
